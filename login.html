@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Bootstrap Bundle-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <!--CSS and Javascript-->
+    <script type="text/javascript" src="main.js"></script>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/tablet-styles.css" />
+    <link rel="stylesheet" href="css/mobile-styles.css" />
+    <!--Font Awesome-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <!--jQuery UI-->
+    <script
+      src="https://code.jquery.com/jquery-1.12.4.min.js"
+      integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/ui/1.13.0/jquery-ui.min.js"
+      integrity="sha256-hlKLmzaRlE8SCJC1Kw8zoUbU8BxA+8kR3gseuKfMjxA="
+      crossorigin="anonymous"
+    ></script>
+    <title>Login</title>
+  </head>
+
+  <body>
+    <div class="main-wrapper">
+      <div class="panel-left-wrapper">
+        <div class="panel-left-inner">
+          <div class="panel-left-logo">
+            <span class="highlight">Lorem</span> Ipsum
+          </div>
+        </div>
+        <div class="panel-left-inner panel-left-inner-bottom">
+          <div class="panel-left-text">
+            <p>
+              <span class="title-1">COMPANY</span><br />
+              <span class="title-2">MANAGEMENT</span><br />
+              <span class="title-3">SOFTWARE</span>
+            </p>
+          </div>
+          <div class="copyright">
+            © 2022 - Lorem Ipsum - All rights reserved.
+          </div>
+        </div>
+      </div>
+      <div class="panel-right-wrapper">
+        <div class="panel-right-inner-logo-mobile">
+          <div class="panel-right-inner-logo-mobile-container">
+            <h1><span class="vi">vi</span>Global</h1>
+            <p>EMPLOYEE RETENTION SOFTWARE</p>
+          </div>
+        </div>
+        <div class="panel-right-inner-top">
+          <div class="inner-top-container">
+            <div class="login-div">
+              <form class="input-form">
+                <div class="panel-right-inner-top-heading">
+                  <h1>Good morning!</h1>
+                  <p>Enter your Username & Password to login</p>
+                </div>
+                <div class="input-wrapper">
+                  <div class="input-field">
+                    <i class="far fa-user icon"></i>
+                    <input type="text" placeholder="Username" />
+                  </div>
+                  <div class="input-field">
+                    <i class="fas fa-key icon"></i>
+                    <input type="password" placeholder="Password" />
+                  </div>
+                  <div class="input-field">
+                    <label class="switch">
+                      <input type="checkbox" />
+                      <span class="slider round"></span>
+                    </label>
+                    <label class="remember-me">Remember me</label>
+                  </div>
+                </div>
+                <div class="panel-right-inner-top-buttons">
+                  <button class="primary-button" type="submit">LOGIN</button>
+                  <button
+                    class="secondary-button"
+                    id="forgot-pw-btn"
+                    type="button"
+                  >
+                    FORGOT PASSWORD
+                  </button>
+                </div>
+              </form>
+            </div>
+            <div class="forgot-div" class="hide-div">
+              <form class="form">
+                <div class="panel-right-inner-top-heading forgot-pw">
+                  <button
+                    class="arrow-back"
+                    id="arrow-back-btn"
+                    type="button"
+                  ></button>
+                  <h1>FORGOT PASSWORD</h1>
+                  <p>
+                    Enter your Email Address below and we'll send you
+                    instructions on how to change your password
+                  </p>
+                </div>
+                <div class="input-wrapper">
+                  <div class="input-field">
+                    <i class="far fa-envelope"></i>
+                    <input type="text" placeholder="Email Address" />
+                  </div>
+                </div>
+                <div class="panel-right-inner-top-buttons">
+                  <button class="primary-button" type="submit">
+                    RESET PASSWORD
+                  </button>
+                  <button
+                    class="secondary-button"
+                    id="cancel-btn"
+                    type="button"
+                  >
+                    CANCEL
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="panel-right-inner-bottom">
+          <div class="panel-right-inner-bottom-container">
+            <div class="weather">
+              <i class="fas fa-cloud-sun"></i>
+            </div>
+            <div class="day-date">
+              <div class="day" id="day"></div>
+              <div class="date" id="date"></div>
+            </div>
+            <div class="time" id="time"></div>
+          </div>
+        </div>
+        <div class="panel-right-inner-bottom-mobile">
+          <div class="panel-right-inner-bottom-mobile-container">
+            <p>© 2018 - viDesktop Inc. - All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
